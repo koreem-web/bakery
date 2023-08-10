@@ -1,0 +1,181 @@
+body{
+    margin: 0px;
+}
+li{
+    list-style:none;
+    display:inline ;
+    margin: 0px 20px 0px 20px;
+    font-size: 20px;
+}
+.d1mini{
+display: flex;
+}
+a{
+    text-decoration: none;
+    color:rgb(124, 108, 108);
+
+}
+.img1{
+width: 110PX;
+margin: 20PX 0PX 0PX 50PX;
+}
+.d1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.big-div{
+    background-image: url(../images/asset2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+a:hover{
+    color: white;
+
+}
+.d2{
+    text-align: center;
+}
+.p1{
+color: white;
+font-weight: bolder;
+font-size: 30px;
+}
+.h1{
+    color: white;
+    font-size: 85px;
+    margin-top: 50px;
+}
+.p2{
+margin-top: -40PX;
+margin-bottom: 30PX ;
+color: rgb(240, 205, 205);
+font-size: 20PX;
+}
+.button1{
+    color: white;
+    background-color: #8e7754;
+    border: 3px solid  #8e7754;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 15px 15px;
+}
+.button2{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+button:hover{
+    background-color: #fff;
+    color: black;
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+.frame{
+    width: 32px;
+    height: 50px;
+    margin: auto;
+    border: 2px solid hsla(0,0%,100%,.7);
+    border-radius: 24px;
+    position: relative;
+    margin-top: 60px;
+}
+
+
+.frame span{
+    background-color: wheat;
+    height: 8px;
+    width: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 11px;
+    animation: rep 5s ease-in-out infinite;
+}
+
+
+@keyframes rep{
+    0% {
+        top: 35px;
+    }
+    
+    25% {
+        top: 10px;
+    }
+    50% {
+        top: 35px;
+    }
+    75% {
+        top: 10px;
+    }
+    100% {
+        top: 35px;
+    }
+}
+.viv{
+    margin-right: 100px;
+}
+.lol
+{
+text-align: center;
+margin-top: 100px 
+
+}
+.big-div2
+{
+display: flex;
+justify-content:space-between;
+}
+.img2
+{
+    width: 540px;
+    height: 480px;
+    margin: 50px 30px 0px 70px;
+}
+.pop{
+    color: #686868;
+    font-size: 25px;
+    text-align: center;
+}
+.seccion3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    background-color: #686868;
+    background-color: #f8f9fa;
+}
+
+.pp{
+margin-left: 250px;
+font-size: 40px;
+}
+.p9{
+    color: #686868;
+    font-size: 1.em;
+    text-align: center;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.p10{
+    color: #686868;
+    font-size: 1.em;
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.img9{
+width: 500px;
+margin-right:60px; 
+}
